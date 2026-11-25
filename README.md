@@ -66,7 +66,7 @@
 
 AgentDrive provides a persistent artifact workspace that lets multiple AI agents share files, memory, and provenance. It supports cross‑agent workflows across Claude Code, Codex, Cursor, and LangGraph, offering portable storage on Cloudflare R2, Amazon S3, or custom buckets. The platform aims to solve the serialization problem in multi‑agent systems by offering versioned, content‑addressed storage that is searchable and auditable, without locking users into a proprietary SDK.
 
-**Areas:** AgentDrive · AI · Multi-Agent · Workspace · Memory · MCP
+**Areas:** Agent Drive · Artificial Intelligence · Multi-Agent · Workspace · Memory · MCP
 
 ## AgentDrive on APIs.io
 
@@ -80,6 +80,13 @@ Everything profiled for AgentDrive is published on APIs.io rather than in this r
 ### Published properties
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (2)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [agentdrive-sh-mcp.json](https://apis.io/servers/agentdrive-sh/agentdrive-sh-mcp-json/)
+- [agentdrive-sh-mcp.yml](https://apis.io/servers/agentdrive-sh/agentdrive-sh-mcp-yml/)
 
 #### JSON Schema (1)
 
@@ -103,22 +110,22 @@ Spectral rulesets for the provider's contracts.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Agentdrive Sh Authentication](https://apis.io/security/agentdrive-sh/agentdrive-sh-authentication/)
-- [Agentdrive Sh Domain Security](https://apis.io/security/agentdrive-sh/agentdrive-sh-domain-security/)
-- [Agentdrive Sh Trust Center](https://apis.io/security/agentdrive-sh/agentdrive-sh-trust-center/)
-- [Agentdrive Sh Vulnerability Disclosure](https://apis.io/security/agentdrive-sh/agentdrive-sh-vulnerability-disclosure/)
+- [AgentDrive Authentication](https://apis.io/security/agentdrive-sh/agentdrive-sh-authentication/)
+- [AgentDrive Domain Security](https://apis.io/security/agentdrive-sh/agentdrive-sh-domain-security/)
+- [AgentDrive Trust Center](https://apis.io/security/agentdrive-sh/agentdrive-sh-trust-center/)
+- [AgentDrive Vulnerability Disclosure](https://apis.io/security/agentdrive-sh/agentdrive-sh-vulnerability-disclosure/)
 
 #### Plans and pricing (1)
 
 Published plans, tiers and prices.
 
-- [Agentdrive Sh Plans Pricing](https://apis.io/plans/agentdrive-sh/agentdrive-sh-plans-pricing/)
+- [AgentDrive Plans Pricing](https://apis.io/plans/agentdrive-sh/agentdrive-sh-plans-pricing/)
 
 #### Rate limits (1)
 
 Published request limits.
 
-- [Agentdrive Sh Rate Limits](https://apis.io/rate-limits/agentdrive-sh/agentdrive-sh-rate-limits/)
+- [AgentDrive Rate Limits](https://apis.io/rate-limits/agentdrive-sh/agentdrive-sh-rate-limits/)
 
 ## Where to find this API
 
@@ -136,18 +143,18 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 55.4** — strong · rubric 0.26.0 · scored 2026-10-31
+**Kin Score 43.1** — developing · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 65.0 |
-| Contract quality | 47.0 |
-| Contract governance | 79.1 |
-| Operational transparency | 34.7 |
+| Discoverability | 71.7 |
+| Contract quality | 19.0 |
+| Contract governance | 22.0 |
+| Operational transparency | 33.3 |
 | Developer ergonomics | 52.4 |
-| Access clarity | 50.0 |
+| Access clarity | 55.3 |
 
-**Agent readiness 28.0** — agent-aware
+**Agent readiness 30.3** — agent-ready
 
 | Agent-readiness dimension | Result |
 |---|---|
@@ -163,7 +170,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Event Surface Described | — |
 | Agent Skills | — |
 | Well Known Catalog | — |
-| Consent Identity | — |
+| Consent Identity | signal |
 | Agent Card | — |
 | Dry Run Mode | — |
 | Delegated Identity | — |
@@ -173,6 +180,9 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Pagination Ratio | na |
 | Operation Distinctiveness | distinct |
 | MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | yes |
+| Markdown Negotiation | yes |
 
 **Regulatory alignment 32.7** — Horizontal (data, software, accessibility, platform)
 
